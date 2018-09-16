@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RN.Core", "RN.Core\RN.Core.csproj", "{29B56196-6FB8-43AF-AEEF-B6915BAA6CF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RN.Lux.Entities", "RN.Lux.Entities\RN.Lux.Entities.csproj", "{B6323215-F25F-4EFC-8AFF-BAEEC2FEEEDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RN.Lux.DataAccess", "RN.Lux.DataAccess\RN.Lux.DataAccess.csproj", "{353AB965-1838-46EE-B652-00B25DF9542A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RN.Lux.Business", "RN.Lux.Business\RN.Lux.Business.csproj", "{76723D29-5800-489C-BDB9-943E2757669D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RN.Lux.MvcWebUI", "RN.Lux.MvcWebUI\RN.Lux.MvcWebUI.csproj", "{034C24D9-2FC9-496C-81F2-37998163335B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RN.Lux.AngularWebUI", "RN.Lux.AngularWebUI\RN.Lux.AngularWebUI.csproj", "{55793246-8DBB-4894-80F2-9AB3B9FCE2D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29B56196-6FB8-43AF-AEEF-B6915BAA6CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B56196-6FB8-43AF-AEEF-B6915BAA6CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B56196-6FB8-43AF-AEEF-B6915BAA6CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B56196-6FB8-43AF-AEEF-B6915BAA6CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6323215-F25F-4EFC-8AFF-BAEEC2FEEEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6323215-F25F-4EFC-8AFF-BAEEC2FEEEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6323215-F25F-4EFC-8AFF-BAEEC2FEEEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6323215-F25F-4EFC-8AFF-BAEEC2FEEEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{353AB965-1838-46EE-B652-00B25DF9542A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{353AB965-1838-46EE-B652-00B25DF9542A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{353AB965-1838-46EE-B652-00B25DF9542A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{353AB965-1838-46EE-B652-00B25DF9542A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76723D29-5800-489C-BDB9-943E2757669D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76723D29-5800-489C-BDB9-943E2757669D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76723D29-5800-489C-BDB9-943E2757669D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76723D29-5800-489C-BDB9-943E2757669D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{034C24D9-2FC9-496C-81F2-37998163335B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034C24D9-2FC9-496C-81F2-37998163335B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034C24D9-2FC9-496C-81F2-37998163335B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034C24D9-2FC9-496C-81F2-37998163335B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55793246-8DBB-4894-80F2-9AB3B9FCE2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55793246-8DBB-4894-80F2-9AB3B9FCE2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55793246-8DBB-4894-80F2-9AB3B9FCE2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55793246-8DBB-4894-80F2-9AB3B9FCE2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A583325-B7A5-4048-8A7F-4CAD330B68C8}
+	EndGlobalSection
+EndGlobal

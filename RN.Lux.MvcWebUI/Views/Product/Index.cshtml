@@ -1,0 +1,33 @@
+﻿@model RN.Lux.MvcWebUI.Models.ProductListVM
+
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+<div>
+    <table class="table col-md-10">
+        <tr>
+            <td class="col-md-4">Name</td>
+            <td class="col-md-3">Price</td>
+            <td class="col-md-3">Stock</td>
+            <td></td>
+        </tr>
+        @foreach (var product in Model.Products)
+        {
+            <tr>
+                <td class="col-md-4">@product.ProductName</td>
+                <td class="col-md-3">@product.UnitPrice</td>
+                <td class="col-md-3">@product.UnitsInStock</td>
+                <td></td>
+            </tr>
+
+        }
+
+    </table>
+</div>
+<product-list-pager 
+    current-category="@Model.CurrentCategory" 
+    current-page="@Model.CurrentPage"
+    page-count="@Model.PageCount"
+    page-size="@Model.PageSize">
+</product-list-pager>
+

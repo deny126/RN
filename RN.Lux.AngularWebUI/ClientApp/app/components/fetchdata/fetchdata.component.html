@@ -1,24 +1,24 @@
-<h1>Weather forecast</h1>
+<h1>Northwind Products</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
+<p>This component demonstrates fetching data from the server.(Northwind)</p>
 
-<p *ngIf="!forecasts"><em>Loading...</em></p>
+<p *ngIf="!products"><em>Products Loading...</em></p>
 
-<table class='table' *ngIf="forecasts">
+<table class='table' *ngIf="products">
     <thead>
         <tr>
-            <th>Date</th>
-            <th>Temp. (C)</th>
-            <th>Temp. (F)</th>
-            <th>Summary</th>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Units In Stock</th>
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let forecast of forecasts">
-            <td>{{ forecast.dateFormatted }}</td>
-            <td>{{ forecast.temperatureC }}</td>
-            <td>{{ forecast.temperatureF }}</td>
-            <td>{{ forecast.summary }}</td>
+        <tr *ngFor="let product of products">
+            <td>{{ product.id }}</td>
+            <td>{{ product.productname }}</td>
+            <td>{{ product.price }}</td>
+            <td>{{ product.unitinstock }}</td>
         </tr>
     </tbody>
 </table>

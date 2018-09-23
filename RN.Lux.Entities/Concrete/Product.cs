@@ -9,7 +9,7 @@ namespace RN.Lux.Entities.Concrete
     {
         public int ProductId { get; set; }
         public string ProductName { get; set; }
-        public int CategoryId { get; set; }
+        public int CategoryID { get; set; }
         public decimal UnitPrice { get; set; }
         public short UnitsInStock { get; set; }
     }

@@ -23,7 +23,7 @@ namespace RN.Lux.Business.Concrete
 
         public List<Product> GetByCategoryId(int categoryId)
         {
-            return _productDal.GetList(p => p.CategoryId == categoryId || categoryId == 0);
+            return _productDal.GetList(p => p.CategoryID == categoryId || categoryId == 0);
         }
 
 

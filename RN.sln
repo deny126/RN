@@ -13,7 +13,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RN.Lux.Business", "RN.Lux.B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RN.Lux.MvcWebUI", "RN.Lux.MvcWebUI\RN.Lux.MvcWebUI.csproj", "{034C24D9-2FC9-496C-81F2-37998163335B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RN.Lux.AngularWebUI", "RN.Lux.AngularWebUI\RN.Lux.AngularWebUI.csproj", "{55793246-8DBB-4894-80F2-9AB3B9FCE2D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RN.Lux.AngularWepAPI", "RN.Lux.AngularWepAPI\RN.Lux.AngularWepAPI.csproj", "{76DB0891-259C-465B-A3B1-CB553EB1CC61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RN.Lux.AngularUI", "RN.Lux.AngularUI\RN.Lux.AngularUI.csproj", "{4B8B5BD9-1B32-4AE6-9DA8-DCD681AC9F25}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RN-Lux-AngularUI", "..\..\..\..\..\..\AngularProjects\RN-Lux-AngularUI\", "{DD4FFC28-5674-47DD-9700-8D77FCD995ED}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_48712"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\AngularProjects\RN-Lux-AngularUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_48712\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_48712"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\AngularProjects\RN-Lux-AngularUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_48712\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "48712"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +63,18 @@ Global
 		{034C24D9-2FC9-496C-81F2-37998163335B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{034C24D9-2FC9-496C-81F2-37998163335B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{034C24D9-2FC9-496C-81F2-37998163335B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{55793246-8DBB-4894-80F2-9AB3B9FCE2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55793246-8DBB-4894-80F2-9AB3B9FCE2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55793246-8DBB-4894-80F2-9AB3B9FCE2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55793246-8DBB-4894-80F2-9AB3B9FCE2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76DB0891-259C-465B-A3B1-CB553EB1CC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DB0891-259C-465B-A3B1-CB553EB1CC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DB0891-259C-465B-A3B1-CB553EB1CC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DB0891-259C-465B-A3B1-CB553EB1CC61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B8B5BD9-1B32-4AE6-9DA8-DCD681AC9F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8B5BD9-1B32-4AE6-9DA8-DCD681AC9F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8B5BD9-1B32-4AE6-9DA8-DCD681AC9F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8B5BD9-1B32-4AE6-9DA8-DCD681AC9F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4FFC28-5674-47DD-9700-8D77FCD995ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4FFC28-5674-47DD-9700-8D77FCD995ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4FFC28-5674-47DD-9700-8D77FCD995ED}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4FFC28-5674-47DD-9700-8D77FCD995ED}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

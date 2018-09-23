@@ -7,7 +7,7 @@ namespace RN.Lux.Entities.Concrete
 {
     public class Category:IEntityBase
     {
-        public int CategoryId { get; set; }
+        public int CategoryID { get; set; }
         public string CategoryName { get; set; }
 
     }

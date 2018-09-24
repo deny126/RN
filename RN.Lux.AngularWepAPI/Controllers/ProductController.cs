@@ -34,5 +34,13 @@ namespace RN.Lux.AngularWepAPI.Controllers
             _productService.Add(product);
             return Ok(product);
         }
+
+        [HttpPost]
+        [Route("delete")]
+        public ActionResult Delete([FromBody]Product product)
+        {
+            _productService.Delete(product.ProductId);
+            return Ok(product);
+        }
     }
 }

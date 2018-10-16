@@ -31,6 +31,8 @@ namespace RN.Lux.MvcWebUI
 
             //Session management
             services.AddSession();
+            //this part is added for making session active in services like productcontroller
+            services.AddDistributedMemoryCache();
 
             services.AddMvc();
           
@@ -49,13 +51,19 @@ namespace RN.Lux.MvcWebUI
             }
 
             //app.UseStaticFiles();
+            app.UseStatusCodePages();
 
 
             //Handshake here
             app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials());
             app.UseFileServer();
-            app.UseNodeModules(env.ContentRootPath);
 
+
+
+            //Middleware 
+            app.UseNodeModules(env.ContentRootPath);
+            //Session management
+            app.UseSession();
 
             //Default rouute ekledim
             app.UseMvcWithDefaultRoute();

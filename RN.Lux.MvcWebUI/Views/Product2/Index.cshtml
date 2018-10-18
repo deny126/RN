@@ -1,12 +1,16 @@
 ﻿@model RN.Lux.MvcWebUI.Models.ProductListVM
 @{
-    ViewData["Title"] = "View";
+    ViewData["Title"] = "Product SB Admin";
     Layout = "~/Views/Shared/_Layout_v2.cshtml";
 }
-@section ScriptSection{ 
+@section CustomCss
+{
+    
+}
+@section ScriptSection{
     <!-- jQuery -->
 
-    <script src="@Url.Content("~/Content/vendor/jquery/jquery.min.js")"></script>">
+    <script src="@Url.Content("~/Content/vendor/jquery/jquery.min.js")"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="@Url.Content("~/Content/vendor/bootstrap/js/bootstrap.min.js")"></script>
@@ -24,12 +28,12 @@
 
     <!-- Page-Level Demo Scripts - Tables - Use for reference -->
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('#dataTables-example').DataTable({
                 responsive: true
             });
         });
-    </script> 
+    </script>
 
 }
 <div class="row">
@@ -80,7 +84,7 @@
                             }
 
                         }
-                        @foreach (var product in Model.Products)
+                        @*@foreach (var product in Model.Products)
                         {
                             <tr class="odd gradeX">
                                 <td>@product.ProductName</td>
@@ -89,7 +93,7 @@
                                 <td></td>
                             </tr>
 
-                        }
+                        }*@
                     </tbody>
                 </table>
                 <!-- /.table-responsive -->

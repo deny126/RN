@@ -14,9 +14,11 @@ namespace RN.Lux.MvcWebUI.Middlewares
         {
             var path = Path.Combine(root, "node_modules");
             var provider = new PhysicalFileProvider(path);
-            var options=new StaticFileOptions();
-            options.RequestPath = "/node_modules";
-            options.FileProvider = provider;
+            var options = new StaticFileOptions
+            {
+                RequestPath = "/node_modules",
+                FileProvider = provider
+            };
             app.UseStaticFiles(options);
             return app;
         }

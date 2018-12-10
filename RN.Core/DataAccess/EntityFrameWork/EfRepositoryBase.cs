@@ -51,7 +51,7 @@ namespace RN.Core.DataAccess.EntityFrameWork
             using (var context = new TContext())
             {
                 var updatedEntity = context.Entry(entity);
-                updatedEntity.State = EntityState.Modified;
+                updatedEntity.State = EntityState.Deleted;
                 context.SaveChanges();
             }
         }
@@ -62,7 +62,7 @@ namespace RN.Core.DataAccess.EntityFrameWork
             using (var context = new TContext())
             {
                 var deletedEntity = context.Entry(entity);
-                deletedEntity.State = EntityState.Deleted;
+                deletedEntity.State = EntityState.Modified;
                 context.SaveChanges();
             }
         }

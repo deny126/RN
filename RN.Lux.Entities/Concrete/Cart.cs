@@ -11,9 +11,7 @@ namespace RN.Lux.Entities.Concrete
         {
             CartLines = new List<CartLine>();
         }
-
         public List<CartLine> CartLines { get; set; }
-
         public decimal Total
         {
             get

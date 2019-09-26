@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using RN.Lux.Entities.Concrete;
-
 namespace RN.Lux.Business.Abstract
 {
     public interface IProductService
@@ -12,6 +9,5 @@ namespace RN.Lux.Business.Abstract
         void Add(Product product);
         void Update(Product product);
         void Delete(int productId);
-    }
-  
+    }  
 }

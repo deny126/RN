@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using RN.Lux.Business.Abstract;
 using RN.Lux.DataAccess.Abstract;
 using RN.Lux.Entities.Concrete;
@@ -14,7 +12,6 @@ namespace RN.Lux.Business.Concrete
         {
             _categoryDal = categoryDal;
         }
-
         public List<Category> GetAll()
         {
             return _categoryDal.GetList();

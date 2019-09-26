@@ -62,6 +62,7 @@ namespace RN.Lux.MvcWebUI
         {
             //Home/Index
             routeBuilder.MapRoute("Default", "{controller=Product}/{action=Index}/{id?}");
+            routeBuilder.MapRoute("TestRouter", "EREN/{controller=Product}/{action=Index}/{id?}");
         }
 
 
